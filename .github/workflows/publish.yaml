@@ -1,0 +1,22 @@
+
+name: codio-publish
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+
+  build:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v1
+
+      - name: Publish to Codio
+        uses: codio/codio-assignment-publish-action@master
+        with:
+          client-id: ${{ secrets.CODIO_CLIENT_ID }}
+          secret-id: ${{ secrets.CODIO_SECRET_ID }}
+          course-name: automate master
+					assignment-name: template-publish

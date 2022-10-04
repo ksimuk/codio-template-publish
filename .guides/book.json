@@ -1,0 +1,17 @@
+{
+ "name": "template-publish",
+ "children": [
+  {
+   "title": "First Page",
+   "id": "e5aaabe2-d06f-e321-b1eb-95c764f7a3a8",
+   "pageId": "e5aaabe2-d06f-e321-b1eb-95c764f7a3a8",
+   "type": "page"
+  },
+  {
+   "title": "Second page",
+   "id": "c0f7a21f-90ef-7c7d-7a9c-b81fb16216aa",
+   "pageId": "c0f7a21f-90ef-7c7d-7a9c-b81fb16216aa",
+   "type": "page"
+  }
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "sections": [
+  {
+   "id": "e5aaabe2-d06f-e321-b1eb-95c764f7a3a8",
+   "title": "First Page",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/First-Page-e5aa.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "closeTerminalSession": true,
+   "learningObjectives": ""
+  },
+  {
+   "id": "c0f7a21f-90ef-7c7d-7a9c-b81fb16216aa",
+   "title": "Second page",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Second-page-c0f7.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false,
+   "closeTerminalSession": true,
+   "learningObjectives": ""
+  }
+ ],
+ "theme": "light",
+ "scripts": [],
+ "lexikonTopic": "",
+ "suppressPageNumbering": false,
+ "useSubmitButtons": true,
+ "useMarkAsComplete": true,
+ "hideMenu": false,
+ "allowGuideClose": false,
+ "collapsedOnStart": false,
+ "hideSectionsToggle": false,
+ "hideBackToDashboard": false,
+ "protectLayout": false
+}
