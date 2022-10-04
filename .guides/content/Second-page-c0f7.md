@@ -6,6 +6,6 @@ Content for the **second** page
 
 {{ var_name }}
 
-#Inlude external file
+# Inlude external file
 
 {% include 'some_content.md' %}

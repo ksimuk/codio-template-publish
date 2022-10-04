@@ -2,9 +2,11 @@
 
 Content for the first page
 
-Include Variable:
+# Include Variable:
+
 {{ var_name }}
 
-Inlude external file
+# Inlude external file
+
 {% include 'some_content.md' %}
 
