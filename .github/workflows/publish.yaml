@@ -12,6 +12,12 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v1
 
+			- name: Render all mds
+  			uses: jayamanikharyono/jinja-action@v0.1
+  			with:
+    			datafile: .guides/template_data.json
+    			path: .guides/content/*.md
+
       - name: Publish to Codio
         uses: codio/codio-assignment-publish-action@master
         with:
