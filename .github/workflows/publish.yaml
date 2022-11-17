@@ -19,7 +19,7 @@ jobs:
           path: .guides/content/*.md
 
       - name: Publish to Codio
-        uses: codio/codio-assignment-publish-action@master
+        uses: codio/codio-assignment-publish-action@publish-converter
         with:
           client-id: ${{ secrets.CODIO_CLIENT_ID }}
           secret-id: ${{ secrets.CODIO_SECRET_ID }}
